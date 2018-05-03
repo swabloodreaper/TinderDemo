@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@+id/mail"
+      android:icon="@drawable/email"
+      android:title="Email" />
+  <item android:id="@+id/upload"
+      android:icon="@drawable/placeholder"
+      android:title="Place"
+      android:showAsAction="ifRoom" />
+  <item android:id="@+id/share"
+      android:icon="@drawable/key"
+      android:title="Key" />
+</menu>

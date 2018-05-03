@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:id="@+id/gridLayout"
+    android:rowOrderPreserved="true"
+    android:orientation="vertical"
+    android:columnCount="3"
+    android:columnOrderPreserved="true"
+    android:foreground="@color/bright_foreground_inverse_material_light">
+    <Button
+        android:id="@+id/btnShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Popup Menu"
+        android:onClick="showPopup" />
+  <AutoCompleteTextView
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:id="@+id/grid_autoTextView"
+    
+    />
+</GridLayout>

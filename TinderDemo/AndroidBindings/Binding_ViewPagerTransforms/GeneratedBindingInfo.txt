@@ -1,0 +1,6 @@
+Binding for:
+com.ToxicBakery.viewpager.transforms:view-pager-transforms:1.2.32@aar
+
+Dependencies:
+
+view-pager-transforms-1.2.32.aar,    Path=C:\Users\swapnilk.SUCCESSIVE\.gradle\caches\modules-2\files-2.1\com.ToxicBakery.viewpager.transforms\view-pager-transforms\1.2.32\7797200e7d0c3b2d762f6caaf3e163f30a3f0bc3\view-pager-transforms-1.2.32.aar

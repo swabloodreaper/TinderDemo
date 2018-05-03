@@ -5,16 +5,14 @@
     android:layout_height="match_parent"
     android:minWidth="25px"
     android:minHeight="25px">
-<FrameLayout
-  android:layout_height="match_parent"
-  android:layout_width="wrap_content"
-  android:padding="30dp"
-  >
-    <Jazzy.JazzyViewPager
+    <android.support.v7.widget.RecyclerView xmlns:a="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/jazzyViewPager1" />
-    
-</FrameLayout>
-  
+        android:id="@+id/recyclerView1" />
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:id="@+id/re_swipe"/>
 </LinearLayout>
